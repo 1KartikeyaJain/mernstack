@@ -1,0 +1,8 @@
+// const add = require("./second")
+// const sub = require("./second")
+// const {add,sub} = require("./second")
+const short=require("./second")
+// console.log(add(5,4))
+// console.log(sub(4,5))
+console.log(short.add(5,4))
+console.log(short.sub(4,5))
